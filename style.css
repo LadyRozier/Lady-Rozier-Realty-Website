@@ -1588,4 +1588,34 @@ footer {
     .consultation-page {
         padding: 70px 6% 50px;
     }
+}/* BROKERAGE BRANDING */
+
+.brokerage-branding {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffffff;
+}
+
+.lady-rozier-logo {
+    width: 260px;
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin: 0 auto 18px;
+}
+
+.brokerage-branding p {
+    margin: 8px 0 12px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.elite-realty-logo {
+    width: 190px;
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
