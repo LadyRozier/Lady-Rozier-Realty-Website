@@ -1237,3 +1237,22 @@ footer {
 .consulting-services .consulting-card p {
     margin-top: 0 !important;
 }
+
+/* FINAL NOTARY IMAGE FIX - DESKTOP */
+
+#notary .notary-layout {
+    align-items: start !important;
+}
+
+#notary .notary-image {
+    height: auto !important;
+    display: block !important;
+}
+
+#notary .notary-image img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    display: block !important;
+}
