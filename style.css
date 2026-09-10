@@ -1255,4 +1255,107 @@ footer {
     max-height: none !important;
     object-fit: contain !important;
     display: block !important;
+}/* ================================
+   PAYMENTS PAGE
+================================ */
+
+.payments-page {
+    min-height: 100vh;
+    background: #000000;
+    color: #ffffff;
+    padding: 90px 8% 70px;
+}
+
+.payments-header {
+    max-width: 850px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.payments-header > p:first-child {
+    color: #c9a227;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.payments-header h1 {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+
+.payments-header p {
+    color: #d9d9d9;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.payment-options {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.payment-card {
+    background: #111111;
+    border: 1px solid #c9a227;
+    padding: 42px 30px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.payment-card h2 {
+    color: #c9a227;
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+.payment-card p {
+    color: #eeeeee;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.payment-button {
+    display: inline-block;
+    background: #c9a227;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 14px 24px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.payment-button:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.payment-notice {
+    max-width: 900px;
+    margin: 50px auto 0;
+    text-align: center;
+    color: #bfbfbf;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+@media (max-width: 850px) {
+    .payment-options {
+        grid-template-columns: 1fr;
+    }
+
+    .payments-header h1 {
+        font-size: 36px;
+    }
+
+    .payments-page {
+        padding: 70px 6% 50px;
+    }
 }
