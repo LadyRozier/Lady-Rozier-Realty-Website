@@ -1618,4 +1618,34 @@ footer {
     height: auto;
     display: block;
     margin: 0 auto;
+}/* FIX LOGO SIZES */
+
+.brokerage-branding {
+    text-align: center;
+    padding: 25px 15px;
+    background: #ffffff;
+}
+
+.lady-rozier-logo {
+    width: 180px !important;
+    max-width: 180px !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto 12px;
+}
+
+.brokerage-branding p {
+    margin: 6px 0 10px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.elite-realty-logo {
+    width: 100px !important;
+    max-width: 100px !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
 }
