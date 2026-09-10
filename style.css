@@ -1649,3 +1649,14 @@ footer {
     display: block;
     margin: 0 auto;
 }
+.brokerage-contact {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.brokerage-contact p {
+    margin: 5px 0;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #555;
+}
