@@ -1473,4 +1473,119 @@ footer {
     .rentals-page {
         padding: 70px 6% 50px;
     }
+}/* ================================
+   CONSULTATION PAGE
+================================ */
+
+.consultation-page {
+    min-height: 100vh;
+    background: #000000;
+    color: #ffffff;
+    padding: 90px 8% 70px;
+}
+
+.consultation-header {
+    max-width: 900px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.consultation-header > p:first-child {
+    color: #c9a227;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.consultation-header h1 {
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.consultation-header p {
+    color: #d9d9d9;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.consultation-options {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.consultation-card {
+    background: #111111;
+    border: 1px solid #c9a227;
+    padding: 42px 30px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.consultation-card h2 {
+    color: #c9a227;
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+.consultation-card p {
+    color: #eeeeee;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.consultation-button {
+    display: inline-block;
+    background: #c9a227;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 14px 22px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.consultation-button:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.consultation-info {
+    max-width: 900px;
+    margin: 55px auto 0;
+    text-align: center;
+    border-top: 1px solid #c9a227;
+    padding-top: 40px;
+}
+
+.consultation-info h2 {
+    color: #c9a227;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.consultation-info p {
+    color: #d9d9d9;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 850px) {
+    .consultation-options {
+        grid-template-columns: 1fr;
+    }
+
+    .consultation-header h1 {
+        font-size: 36px;
+    }
+
+    .consultation-page {
+        padding: 70px 6% 50px;
+    }
 }
