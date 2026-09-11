@@ -1659,4 +1659,26 @@ footer {
     font-size: 12px;
     line-height: 1.6;
     color: #555;
+}/* STANDALONE PAGE BRANDING */
+
+.standalone-page-logo {
+    text-align: center;
+    padding: 30px 0 15px;
+}
+
+.standalone-page-logo img {
+    width: 130px;
+    max-width: 130px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.standalone-page-logo::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 2px;
+    background: #c9a227;
+    margin: 15px auto 0;
 }
