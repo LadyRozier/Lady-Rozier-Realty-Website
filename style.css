@@ -1681,4 +1681,28 @@ footer {
     height: 2px;
     background: #c9a227;
     margin: 15px auto 0;
+}/* SOCIAL MEDIA LINKS */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 12px;
+}
+
+.social-links a {
+    color: #c9a227;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+}
+
+.social-links span {
+    color: #c9a227;
 }
