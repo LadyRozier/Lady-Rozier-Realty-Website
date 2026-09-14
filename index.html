@@ -1,571 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Update in Progress</title>
 
-    <title>Lady Rozier Realty Group, LLC</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-    <link rel="stylesheet" href="style.css">
+        body {
+            min-height: 100vh;
+            background: #0d0d0d;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        .update-box {
+            max-width: 750px;
+            padding: 60px 40px;
+            border: 1px solid #d4af6a;
+        }
+
+        .brand {
+            color: #d4af6a;
+            font-family: Georgia, serif;
+            font-size: 22px;
+            letter-spacing: 5px;
+            margin-bottom: 35px;
+        }
+
+        h1 {
+            color: #e4c47f;
+            font-family: Georgia, serif;
+            font-size: 48px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .small {
+            color: #c8c8c8;
+            font-size: 16px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 34px;
+            }
+
+            .update-box {
+                padding: 45px 25px;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <main class="update-box">
+        <div class="brand">LADY ROZIER</div>
 
-    <header>
+        <h1>Website Update in Progress</h1>
 
-        <h1>Lady Rozier Realty Group, LLC</h1>
-
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#real-estate">Real Estate</a>
-            <a href="rentals.html">Rentals & Leasing</a>
-            <a href="#design">Home Design</a>
-            <a href="#notary">Notary</a>
-            <a href="#consulting">Consulting</a>
-            <a href="consultation.html">Consultation</a>
-            <a href="payments.html">Payments</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-    </header>
-
-
-    <main>
-
-        <!-- HOME -->
-
-        <section id="home">
-
-            <div class="hero-text">
-
-                <p class="company-name">
-                    Lady Rozier Realty Group, LLC
-                </p>
-
-                <h2>Tammy Rozier</h2>
-
-                <h3>Chief Executive Officer</h3>
-
-                <p class="hero-services">
-                    Real Estate & Home Design Professional
-                    <br>
-                    Traditional & Remote Notary Services
-                    <br>
-                    Financial • Investment • Retirement Consulting
-                </p>
-
-                <h4>
-                    Where Real Estate, Design & Life Planning Come Together
-                </h4>
-
-                <div class="hero-buttons">
-
-                    <a href="#contact" class="btn gold-btn">
-                        Schedule a Consultation
-                    </a>
-
-                    <a href="tel:3055461205" class="btn outline-btn">
-                        Call 305-546-1205
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <div class="hero-image">
-
-                <img
-                    src="images/tammy-hero.png"
-                    alt="Tammy Rozier, Chief Executive Officer"
-                >
-
-            </div>
-
-        </section>
-
-
-        <!-- SERVICE CARDS -->
-
-        <section class="services">
-
-            <div class="service-card">
-                <div class="service-icon">⌂</div>
-                <h2>Real Estate</h2>
-                <p>
-                    Buying • Selling • Investment Properties •
-                    Residential Real Estate Guidance
-                </p>
-                <a href="#real-estate">Learn More</a>
-            </div>
-
-            <div class="service-card">
-                <div class="service-icon">✦</div>
-                <h2>Home Design</h2>
-                <p>
-                    Design Consultation • Space Planning •
-                    Design Concepts • New Construction Vision
-                </p>
-                <a href="#design">Learn More</a>
-            </div>
-
-            <div class="service-card">
-                <div class="service-icon">✓</div>
-                <h2>Notary Services</h2>
-                <p>
-                    Traditional Notary • Remote Online Notary •
-                    Convenient Appointment Options
-                </p>
-                <a href="#notary">Learn More</a>
-            </div>
-
-            <div class="service-card">
-                <div class="service-icon">◇</div>
-                <h2>Consulting</h2>
-                <p>
-                    Personal Finance Education • Investment Education •
-                    Retirement Planning Education
-                </p>
-                <a href="#consulting">Learn More</a>
-            </div>
-
-        </section>
-
-
-        <!-- ABOUT -->
-
-        <section id="about" class="about-section">
-
-            <div class="about-image">
-
-                <img
-                    src="images/tammy-about.jpg"
-                    alt="Tammy Rozier"
-                >
-
-            </div>
-
-
-            <div class="about-text">
-
-                <p class="section-label">ABOUT</p>
-
-                <h2>Meet Tammy Rozier</h2>
-
-                <h3>Chief Executive Officer</h3>
-
-                <p>
-                    Tammy Rozier is the Chief Executive Officer of
-                    Lady Rozier Realty Group, LLC, offering a personalized
-                    approach to real estate, home design, notary services,
-                    and consulting.
-                </p>
-
-                <p>
-                    With a commitment to professionalism, attention to detail,
-                    and client-focused service, Tammy helps individuals and
-                    families make informed decisions surrounding property,
-                    home design, major life transitions, and future planning.
-                </p>
-
-                <p>
-                    Her approach is built around understanding each client's
-                    goals, simplifying the process, and providing thoughtful
-                    guidance from the first conversation through the next
-                    important step.
-                </p>
-
-                <a href="#contact" class="btn gold-btn">
-                    Work With Tammy
-                </a>
-
-            </div>
-
-        </section>
-
-
-        <!-- REAL ESTATE -->
-
-        <section id="real-estate" class="real-estate-section">
-
-            <p class="section-label">REAL ESTATE</p>
-
-            <h2>Guidance for Your Next Move</h2>
-
-            <p class="section-intro">
-                Whether you're buying, selling, or exploring your options,
-                Lady Rozier Realty Group, LLC provides personalized real
-                estate guidance designed around your goals.
-            </p>
-
-            <div class="real-estate-grid">
-
-                <div class="real-estate-card">
-                    <h3>Buying a Home</h3>
-                    <p>
-                        Guidance through property searches, showings,
-                        offers, negotiations, and the path to closing.
-                    </p>
-                </div>
-
-                <div class="real-estate-card">
-                    <h3>Selling a Home</h3>
-                    <p>
-                        Personalized support with preparing, positioning,
-                        marketing, and presenting your property.
-                    </p>
-                </div>
-
-                <div class="real-estate-card">
-                    <h3>Property Showings</h3>
-                    <p>
-                        Private and personalized property tours with
-                        attention to the details that matter most to you.
-                    </p>
-                </div>
-
-                <div class="real-estate-card">
-                    <h3>Investment Properties</h3>
-                    <p>
-                        Explore residential investment opportunities
-                        with a practical, goal-focused approach.
-                    </p>
-                </div>
-
-            </div>
-
-            <a href="#contact" class="btn gold-btn">
-                Schedule a Real Estate Consultation
-            </a>
-
-        </section>
-
-
-        <!-- HOME DESIGN -->
-
-        <section id="design">
-<div class="design-showcase">
-    <img
-        src="images/home-design-concepts.png"
-        alt="Luxury home design concepts by Lady Rozier Realty Group"
-    >
-</div>
-            <section id="design">
-
-    <p class="section-label">HOME DESIGN</p>
-
-    <h2>Designing Spaces Around Your Vision</h2>
-
-    <p>
-        Home Design Consultation • Space Planning •
-        Design Concepts • New Construction Vision
-    </p>
-
-    <div class="design-showcase">
-        <img
-            src="images/home-design-concept.png"
-            alt="Luxury home design concepts by Lady Rozier Realty Group"
-        >
-    </div>
-
-</section>
-
-
-        <!-- NOTARY -->
-
-        <section <section id="notary" class="notary-section">
-
-    <div class="notary-layout">
-
-        <div class="notary-image">
-            <img
-                src="images/notary-services.png"
-                alt="Lady Justice and professional notary services"
-            >
-        </div>
-
-        <div class="notary-content">
-
-            <p class="section-label">NOTARY SERVICES</p>
-
-            <h2>Traditional & Remote Online Notary Services</h2>
-
-            <p class="notary-intro">
-                Professional, convenient notary services for personal,
-                business, real estate, and general document needs.
-            </p>
-
-            <div class="notary-services-list">
-
-                <div>
-                    <h3>Traditional Notary</h3>
-                    <p>
-                        In-person notarization for eligible documents,
-                        acknowledgments, jurats, affidavits, and other
-                        general notarial needs.
-                    </p>
-                </div>
-
-                <div>
-                    <h3>Remote Online Notary</h3>
-                    <p>
-                        Convenient remote notarization options for eligible
-                        documents when permitted by applicable law and
-                        platform requirements.
-                    </p>
-                </div>
-
-                <div>
-                    <h3>Real Estate Documents</h3>
-                    <p>
-                        Notarial services for certain real estate,
-                        closing-related, and property documents when
-                        appropriate.
-                    </p>
-                </div>
-
-                <div>
-                    <h3>Business & Personal Documents</h3>
-                    <p>
-                        Professional notarization for a variety of business,
-                        personal, authorization, and general documents.
-                    </p>
-                </div>
-
-            </div>
-
-            <a href="#contact" class="btn gold-btn">
-                Request Notary Services
-            </a>
-
-        </div>
-
-    </div>
-
-</section>             </section>
-
-
-        <!-- CONSULTING -->
-
-        <section id="consulting" class="consulting-section">
-
-    <div class="consulting-header">
-        <span class="section-label">CONSULTING SERVICES</span>
-        <h2>Knowledge. Planning. Confidence.</h2>
         <p>
-            Educational guidance designed to help you better understand
-            your financial options and prepare confidently for the future.
+            We're making some exciting updates to better serve you.
         </p>
-    </div>
 
-    <div class="consulting-services">
+        <p>
+            Please check back soon.
+        </p>
 
-        <div class="consulting-card">
-            <h3>Personal Finance Education</h3>
-            <p>
-                Build a stronger understanding of budgeting, credit,
-                saving, financial organization, and everyday money decisions.
-            </p>
+        <div class="small">
+            Thank you for your patience.
         </div>
-
-        <div class="consulting-card">
-            <h3>Investment Education</h3>
-            <p>
-                Learn fundamental investment concepts, risk considerations,
-                diversification, and strategies for long-term financial growth.
-            </p>
-        </div>
-
-        <div class="consulting-card">
-            <h3>Retirement Planning Education</h3>
-            <p>
-                Better understand retirement accounts, income planning,
-                savings strategies, and considerations for preparing
-                for retirement.
-            </p>
-        </div>
-
-    </div>
-
-    <p class="consulting-disclaimer">
-        Educational information only. Services do not constitute individualized
-        investment, tax, or legal advice.
-    </p>
-
-</section>
-
-
-        <!-- CONTACT -->
-
-        <section id="contact">
-
-    <p class="section-label">CONTACT</p>
-
-    <h2>Let's Get Started</h2>
-
-    <p class="contact-intro">
-        Your Goals. Your Vision. Your Next Move.
-    </p>
-
-    <div class="contact-layout">
-
-        <div class="contact-info">
-
-            <h3>Tammy Rozier</h3>
-
-            <p>
-                Chief Executive Officer<br>
-                Lady Rozier Realty Group, LLC
-            </p>
-
-            <p>
-                <strong>Phone:</strong><br>
-                <a href="tel:3055461205">305-546-1205</a>
-            </p>
-
-            <p>
-                <strong>Email:</strong><br>
-                <a href="mailto:LadyRozier@trusteliteinc.com">
-                    LadyRozier@trusteliteinc.com
-                </a>
-            </p>
-
-            <p>
-                Real Estate • Home Design • Notary • Consulting
-            </p>
-
-        </div>
-
-
-        <form
-    class="contact-form"
-    action="https://formspree.io/f/mrpgrjka"
-    method="POST"
->
-
-    <input
-        type="hidden"
-        name="_subject"
-        value="New Lady Rozier Realty Group Consultation Request"
-    >
-
-
-            <label for="name">Full Name</label>
-            <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Your Name"
-                required
-            >
-
-            <label for="email">Email Address</label>
-            <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Your Email"
-                required
-            >
-
-            <label for="phone">Phone Number</label>
-            <input
-                type="tel"
-                id="phone"
-                name="phone"
-                placeholder="Your Phone Number"
-            >
-
-            <label for="service">Service Needed</label>
-
-            <select id="service" name="service">
-
-                <option value="">Select a Service</option>
-                <option>Real Estate</option>
-                <option>Home Design</option>
-                <option>Traditional Notary</option>
-                <option>Remote Online Notary</option>
-                <option>Financial Education Consulting</option>
-                <option>Investment Education Consulting</option>
-                <option>Retirement Planning Education</option>
-
-            </select>
-
-
-            <label for="message">How Can I Help?</label>
-
-            <textarea
-                id="message"
-                name="message"
-                rows="6"
-                placeholder="Tell me a little about what you need..."
-            ></textarea>
-
-
-            <button type="submit" class="contact-button">
-                Request a Consultation
-            </button>
-
-        </form>
-
-    </div>
-</section>
-
-
     </main>
-<div class="brokerage-branding">
-    <img src="images/lady-rozier-logo.png"
-         alt="Lady Rozier Realty Group LLC"
-         class="lady-rozier-logo">
-
-    <p>Brokered by</p>
-
-    <img src="images/elite-realty-logo.png"
-         alt="Elite Realty Partners Inc."
-         class="elite-realty-logo">
-
-
-<div class="brokerage-contact">
-    <p>
-        12781 Miramar Parkway, Suite 301<br>
-        Miramar, FL 33027
-    </p>
-
-    <p>
-        Office: (954) 990-7526<br>
-        Florida Real Estate Corporation License: CQ1057249
-    </p>
-
-</div>
-</div>
-    <footer>
-
-        <p>
-            © 2026 Lady Rozier Realty Group, LLC.
-            All Rights Reserved.
-        </p>
-        <div class="social-links">
-    <a href="https://www.instagram.com/ladyrozierrealtygroup/"
-       target="_blank"
-       rel="noopener noreferrer"
-       aria-label="Lady Rozier Realty Group on Instagram">
-        Instagram
-    </a>
-
-    <span>•</span>
-
-    <a href="https://www.facebook.com/share/1EmaV2GB8T/"
-       target="_blank"
-       rel="noopener noreferrer"
-       aria-label="Lady Rozier Realty Group on Facebook">
-        Facebook
-    </a>
-</div>
-
-    </footer>
-
 </body>
-
 </html>
